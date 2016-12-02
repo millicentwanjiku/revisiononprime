@@ -1,5 +1,7 @@
 def prime_num(number):
-    # The list of prime numbers
+    '''
+    The function returns a list of prime numbers
+    '''
     primenumbers = []
     isdivisible = True
     if not isinstance(number, int):
@@ -18,4 +20,4 @@ def prime_num(number):
     return primenumbers
 
 
-print(prime_num(10))
+
